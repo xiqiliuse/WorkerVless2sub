@@ -11,7 +11,8 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/xiqiliuse/WorkerVless2sub/main/addressesipv6api.txt', //可参考内容格式 自行搭建。
+	''
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
@@ -41,6 +42,10 @@ let RproxyIP = 'false';
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 	'proxyip.multacom.fxxk.dedyn.io',
 	'proxyip.vultr.fxxk.dedyn.io',
+	'workers.cloudflare.cyou',
+	'cdn.xn--b6gac.eu.org',
+	'cdn-all.xn--b6gac.eu.org',
+	'bestproxy.onecf.eu.org'
 ];
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
