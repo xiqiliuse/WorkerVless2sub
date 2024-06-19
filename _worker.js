@@ -5,8 +5,8 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	// 'icook.tw:2053#官方优选域名',
+	// 'cloudflare.cfgo.cc#优选官方线路',
 ];
 
 // 设置优选地址api接口
@@ -45,7 +45,23 @@ let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 	'workers.cloudflare.cyou',
 	'cdn.xn--b6gac.eu.org',
 	'cdn-all.xn--b6gac.eu.org',
-	'bestproxy.onecf.eu.org'
+	'bestproxy.onecf.eu.org',
+	'workers.cloudflare.cyou',
+	'cdn-seek-b090-2a5cee4bb04a.hk-cctv.com',
+	'cdn-all.xn--b6gac.eu.org',
+	'cdn.xn--b6gac.eu.org',
+	'cdn-b100.xn--b6gac.eu.org',
+	'edgetunnel.anycast.eu.org',
+	'cdn.anycast.eu.org',
+	'bestproxy.onecf.eu.org',
+	'ipdb.rr.nu',
+	'proxyip.fxxk.dedyn.io ',
+	'proxyip.sg.fxxk.dedyn.io ',
+	'proxyip.jp.fxxk.dedyn.io ',
+	'proxyip.hk.fxxk.dedyn.io',
+	'proxyip.aliyun.fxxk.dedyn.io ',
+	'proxyip.oracle.fxxk.dedyn.io ',
+	'proxyip.digitalocean.fxxk.dedyn.io '
 ];
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
