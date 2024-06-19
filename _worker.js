@@ -21,11 +21,14 @@ let addressesnotls = [
 	'www.visa.com.sg#官方优选域名',
 	'www.wto.org:8080#官方优选域名',
 	'www.who.int:8880#官方优选域名',
+	'www.gov.se#1', 
+	'www.visa.com#2',
+	'speed.cloudflare.com#3'
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	// 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 8;//速度下限
