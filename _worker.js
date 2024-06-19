@@ -7,34 +7,24 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 let addresses = [
 	'icook.tw:2053#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
-	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
-	'www.gov.se#1', 
-	'www.visa.com#2',
-	'speed.cloudflare.com#3'
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	// 'https://raw.githubusercontent.com/xiqiliuse/WorkerVless2sub/main/addressesipv6api.txt', //可参考内容格式 自行搭建。
-	''
+	// 'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	// 'www.visa.com.sg#官方优选域名',
-	// 'www.wto.org:8080#官方优选域名',
-	// 'www.who.int:8880#官方优选域名',
-	// 'www.gov.se#1', 
-	// 'www.visa.com#2',
-	// 'speed.cloudflare.com#3'
+	'www.visa.com.sg#官方优选域名',
+	'www.wto.org:8080#官方优选域名',
+	'www.who.int:8880#官方优选域名',
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	// 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 8;//速度下限
@@ -51,26 +41,6 @@ let RproxyIP = 'false';
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 	'proxyip.multacom.fxxk.dedyn.io',
 	'proxyip.vultr.fxxk.dedyn.io',
-	'workers.cloudflare.cyou',
-	'cdn.xn--b6gac.eu.org',
-	'cdn-all.xn--b6gac.eu.org',
-	'bestproxy.onecf.eu.org',
-	'workers.cloudflare.cyou',
-	'cdn-seek-b090-2a5cee4bb04a.hk-cctv.com',
-	'cdn-all.xn--b6gac.eu.org',
-	'cdn.xn--b6gac.eu.org',
-	'cdn-b100.xn--b6gac.eu.org',
-	'edgetunnel.anycast.eu.org',
-	'cdn.anycast.eu.org',
-	'bestproxy.onecf.eu.org',
-	'ipdb.rr.nu',
-	'proxyip.fxxk.dedyn.io ',
-	'proxyip.sg.fxxk.dedyn.io ',
-	'proxyip.jp.fxxk.dedyn.io ',
-	'proxyip.hk.fxxk.dedyn.io',
-	'proxyip.aliyun.fxxk.dedyn.io ',
-	'proxyip.oracle.fxxk.dedyn.io ',
-	'proxyip.digitalocean.fxxk.dedyn.io '
 ];
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
