@@ -287,7 +287,7 @@ export default {
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
 		let host = "whoneil.top";
-		let uuid = "1948a136-757c-4a74-ba69-d81b35f2f037";
+		let uuid = "3c90e78e-4196-4f08-8693-3b8aa5b473db";
 		let path = "";
 		let sni = "";
 		let UD = Math.floor(((timestamp - Date.now())/timestamp * 99 * 1099511627776 * 1024)/2);
